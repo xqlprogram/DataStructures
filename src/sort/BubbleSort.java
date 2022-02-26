@@ -16,7 +16,7 @@ public class BubbleSort {
 
     /**
      * 冒泡排序最终算法
-     * aa
+     * bbb
      * @param a
      */
     public static void bubble_v2(int[] a){
