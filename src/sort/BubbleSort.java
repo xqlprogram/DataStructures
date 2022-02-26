@@ -1,9 +1,6 @@
 package sort;
 
-import test.main;
-
 import java.util.Arrays;
-import java.util.concurrent.ForkJoinPool;
 
 /**
  * @author xql
@@ -16,6 +13,11 @@ public class BubbleSort {
         bubble_v2(a);
     }
 
+
+    /**
+     * 冒泡排序最终算法
+     * @param a
+     */
     public static void bubble_v2(int[] a){
 
         int times = a.length - 1;//每轮需要比较的次数
